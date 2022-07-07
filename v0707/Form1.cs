@@ -43,7 +43,7 @@ namespace v0707
         {
             //int avr=data[0] + data[1] + data[2])/3;
             MessageBox.Show("" + ((data[0] + data[1] + data[2])/3));
-                //MessageBox.Show($"平均{avr}");
+            //MessageBox.Show($"平均{avr}");
             
         }
     }
