@@ -27,8 +27,8 @@ namespace v0707
         private void button1_Click(object sender, EventArgs e)
         {
             data[0] = rand.Next(11);
-            data[1] = rand.Next(10);
-            data[2] = rand.Next(10);
+            data[1] = rand.Next(11);
+            data[2] = rand.Next(11);
             MessageBox.Show("" + (data[0],data[1],data[2]));
         }
 
